@@ -1,0 +1,41 @@
+body{
+	background-size: 80vw 80vh;
+	background-attachment:scroll;
+	margin: 0;
+}
+
+form{
+	width:380px; 
+	margin:auto;
+	background: rgba(0,0,0,0.4);
+	padding: 9px 18px;
+	box-sizing: content-box;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+input{
+	width:50%;
+	margin-bottom: 10px;
+	padding: 6px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+#boton:hover{
+	cursor:no-drop;
+}
+h1
+{
+	color:chartreuse;
+	text-align:center;
+	margin: 5;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+@media (max-width:100px)
+{
+	form
+	{
+		width: 90%;
+	}
+}
